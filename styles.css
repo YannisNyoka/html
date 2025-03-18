@@ -10,9 +10,15 @@
     border: 2px solid red;
 }
 
-.nav{
+.nav {
     height: 10vh;
     border: 2px solid blueviolet;
+    
+}
+
+.nav li{
+    display: inline;
+    margin: 50px;
 }
 
 .banner{
