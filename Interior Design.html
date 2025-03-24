@@ -5,37 +5,185 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interior Design</title>
     <link rel="stylesheet" href="Interior Design.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 </head>
 <body>
-    <nav>
-        <div>
-            <h3>
+    <div class="first-main">
+        <!--NavBar-->
+    <nav class="NavBar"> 
+        <div class="company-name-box">
+            <h3 class="company-name">
                 Company <br>
                 Name
             </h3>
         </div>
-        <div>
-            <a href="#home">Home</a>
-            <a href="#showcase">showcase</a>
-            <a href="#services">services</a>
-            <a href="designers">Designers</a>
-            <a href="packages">Packages</a>
-            <a href="#contact">Contact</a>
+        <div class="navBar-item">
+            <a href="#home" class="a-hover">Home</a>
+            <a href="#showcase"class="a-hover">Showcase</a>
+            <a href="#services"class="a-hover">Services</a>
+            <a href="#designers"class="a-hover">Designers</a>
+            <a href="#packages"class="a-hover">Packages</a>
+            <a href="#contact"class="a-hover">Contact</a>
         </div>
-    </nav>
+    </nav> 
+
     <!--Main Div-->
     <div class="MainDiv">
-        <div class="Header">
-            
+         <div class="Header">
+            <h1 class="First-heading">
+                Interior Design <br>
+                <h1 class="span">Showcase</h1>
             </h1>
             <hr>
-        </div>
-        <!--PhotoGrid-->
+        </div> 
+        <!--PhotoGrid/Services/Designers/The Team-->
         <div class="PhotoGrid">
+            <div class="first-half">
+            <img src="image/kitchenconcrete.jpg" alt="kitchenconcrete" class= style="width: 100%;">
+            <img src="image/livingroom.jpg" alt="livingroom"style="width: 100%;">
+            <img src="image/diningroom.jpg" alt="livingroom2" style="width: 100%;"> 
+           </div>
+           <div class="second-half">
+            <img src="image/atrium.jpg" alt="atrium"style="width: 100%;">
+            <img src="image/bedroom.jpg" alt="livingroom2" style="width: 100%;">
+            <img src="image/livingroom2.jpg" alt="livingroom2" style="width: 100%;">
+           </div>
+        </div> 
+        <!--Services-->
+        <div class="Header">
+            <h3 class="span">Services</h3>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis rerum harum quidem consequatur soluta, aut fugiat quam cumque nisi maxime magni error? Temporibus, veniam. Minima repudiandae quae dignissimos tempore?</p>
+           </div>
+           <div class="Header">
+            <h3 class="span">
+                Designers
+            </h3>
+            <hr>
+            <p>
+                This is the best team inthe world
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium accusantium harum delectus eligendi sint provident impedit aperiam cumque maxime natus? Provident, vero qui. Provident odit sequi corrupti, quibusdam quas aliquid!
+            </p>
+           </div>
+           <!--Designers Images-->
+           <div class="Designers-images">
+            <div>
+                <img src="image/team2.jpg" alt="JohnDoe" class="imageD">
+                <h3>John Doe</h3>
+                <p>
+                    <span>CEO & Founder</span>
+                </p>
+                <br>
+                <p>
+                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.  
+                </p>
 
+            </div>
+            <div>
+                <img src="image/team1.jpg" alt="JaneDoe" class="imageD">
+                <h3>Jane Doe</h3>
+                <p>
+                   <span>Designer</span> 
+                </p>
+                <br>
+                <p>
+                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.  
+                </p>
+            </div>
+            <div>
+                <img src="image/team3.jpg" alt="MikeDoe" class="imageD" >
+                <h3>Mike Ross</h3>
+                <p>
+                    <span>Architect</span>
+                </p>
+                <br>
+                <p>
+                    Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.  
+                </p>
+            </div>
 
-        </div>
+           </div>
+           <!--Packages heading and paragraph-->
+           <div class="Header">
+            <h1 class="span">
+                Packages
+            </h1>
+            <hr>
+            <p>
+                Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            </p>
+           </div>
+           <!--Pricing Table-->
+           <div class="basic-pro">
+            <div class="basic">
+                <ul>
+                    <li class="padding-32 dark-grey">Basic</li>
+                    <li class="padding-16 light-grey">Floorplanning</li>
+                    <li class="padding-16 light-grey">10 hours support</li>
+                    <li class="padding-16 light-grey">Photography</li>
+                    <li class="padding-16 light-grey">20% furniture discount</li>
+                    <li class="padding-16 light-grey">Good deals</li>
+                    <li class="padding-16 light-grey">
+                        <h2>$199</h2>
+                        <span>per room</span>
+                    </li>
+                    <li class="padding-16 light-grey">
+                        <button class="button-white">Sign Up</button>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="pro">
+                <ul>
+                    <li class="padding-32 red" >Pro</li>
+                    <li class="padding-16 light-grey">Floorplanning</li>
+                    <li class="padding-16 light-grey">50 hours support</li>
+                    <li class="padding-16 light-grey">Photography</li>
+                    <li class="padding-16 light-grey">50% furniture discount</li>
+                    <li class="padding-16 light-grey">Good deals</li>
+                    <li class="padding-16 light-grey">
+                        <h2>$249</h2>
+                        <span>per room</span>
+                    </li>
+                    <li class="padding-16 light-grey">
+                        <button class="button-red" >Sign Up</button>
+                    </li>
+
+                </ul>
+            </div>
+
+           </div>
+           <!--Contact Form-->
+           <div class="Header">
+            <h1 class="span">
+                Contact
+            </h1>
+            <hr>
+            <p>
+                Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people! 
+            </p>
+            <form>
+                <div class="block">
+                    <label>Name</label>
+                    <input type="text" name="Name" required>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="text" name="Email" required>
+                </div>
+                <div>
+                    <label>Message</label>
+                    <input type="text" name="Message">
+                </div>
+                <button class="send-message">Send Message</button>
+            </form>
+            <div class="footer">
+                <p class="footer-p"> Powered by<a  href="w3.css" class="link-color">w3.css</a>
+                </p>
+            </div>
+           </div>
     </div>
+</div>
 
 </body>
 </html>
