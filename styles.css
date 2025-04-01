@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.fixed-left{
+    width: 23.7%;
+    border: 2px solid red;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 13.9%;
+
+
+}
+.body{
+    width:69.8%;
+margin-left: 23.7%;
+border: 2px solid goldenrod;
+height: 600vh;
+}
+.logo{
+    /* border: 1px solid green; */
+    display: block;
+    width: 28%;
+    height:5vh; 
+    margin-top: 20px;
+    margin-left: 27.2%;
+    text-align: center;
+    margin-top: 34px;
+}
+h1{
+   
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    display: block;
+    
+}
+.navbar{
+    /* border: 2px solid greenyellow; */
+    height:58%;
+    width: 70%;
+    margin-left: 22%;
+}
+ul{
+    display: block;
+    list-style-type: none;
+     font-family: 'Roboto',sans-serif;
+     font-size: 22px;
+     font-weight: bolder;
+
+}
+li{
+padding:13px 19px ;
+color: #757575;
+}
+li:hover{
+    background-color: #757575;
+    color: #000;
+    cursor: pointer;
+}
+.jeans{
+    color: #000;
+}
+.header{
+    /* border: 1px solid pink; */
+    width: 100%;
+    height: 12.8vh;
+    display: flex;
+    flex-direction: row;
+    gap: 80%;
+}
+h2,.top{
+    font-weight: lighter;
+    padding-top:2.5%;
+    padding-left: 1.5%;
+    margin-left: 5px;
+    font-size: 30px;
+    /* border: 1px solid burlywood; */
+    display:inline-block;
+}
+.carts{
+    padding-left: 20px;
+    
+}
+.i{
+    padding-top:3.4%;
+    padding-left: 20px;
+display: inline-block;
+}
+.banner{
+    border: 1px solid black;
+    width: 100%;
+    height: 94.3vh;
+}
+img{
+    width: 98.2%;
+    margin-left: 20.8px;
+}
+h3{
+    display: inline-block;
+    /* border: 1px solid black; */
+    margin:15px 0;
+}
+
